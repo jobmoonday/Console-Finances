@@ -97,8 +97,7 @@ var finances = [
   var date;
   var minChange=0;
   var maxChange=0;
-  
-  
+   
   
   
   /* Total months & Total */
@@ -131,6 +130,8 @@ var finances = [
   console.log("Average Change: "+ averageOfChanges.toFixed(2))
   console.log("Greatest Increase in Profits/Losses: "+date+" ($"+ maxChange+")")
   console.log("Greatest Decrease in Profits/Losses: "+date+" ($"+ minChange+")")
+
+  // WARNING!: The last two functionalities are under construction
 
 
   
